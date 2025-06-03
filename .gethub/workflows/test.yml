@@ -4,7 +4,7 @@ on: push
 
 jobs:
   first-job:
-    runs-on: windows
+    runs-on: windows-latest
     steps:
       - name: print ITI
       - run: echo "ITI"

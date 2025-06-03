@@ -1,0 +1,10 @@
+name: first wf
+
+on: push
+
+jobs:
+  first-job:
+    runs-on: windows-latest
+    steps:
+      - name: print ITI
+      - run: echo "ITI"

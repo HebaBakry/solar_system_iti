@@ -1,10 +1,13 @@
+# optional
 name: first wf
 
 on: push
 
 jobs:
   first-job:
-    runs-on: windows-latest
+    # OS, must specify tag
+    runs-on: ubuntu-latest
+    # functions you'd like to run
     steps:
-      - name: print ITI
-      - run: echo "ITI"
+      - name: print my name
+        run: echo "ITI"
